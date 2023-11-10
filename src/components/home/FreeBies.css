@@ -1,0 +1,96 @@
+.section-freebies {
+  background-image: url(/images/redesign/decorations/img_dollar.svg);
+  background-repeat: no-repeat;
+  background-position: top 58px right 24px;
+}
+
+@media (min-width: 1024px) {
+  .section-freebies {
+    background-image: url(/images/redesign/decorations/img_circle-dark_thin.svg),
+      url(/images/redesign/decorations/img_circles-gray-02_small_wide.svg),
+      url(/images/redesign/decorations/img_circle-dark_thin.svg),
+      url(/images/redesign/decorations/img_circles-gray-02_wide.svg),
+      url(/images/redesign/decorations/img_dollar.svg);
+    background-position: top 86px right 12px, top -73px right -36px,
+      top 53px left 18px, bottom -200px left -119px, bottom 66px left 40%;
+    background-size: 49px, 184px, 99px, 488px, 75px;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+  }
+}
+
+@media (min-width: 1024px) {
+  .section-freebies__inner {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+  }
+}
+
+.section-freebies h2 {
+  margin-bottom: 1rem;
+  max-width: 268px;
+}
+
+@media (min-width: 1024px) {
+  .section-freebies h2 {
+    margin-bottom: 0;
+    max-width: 30.7rem;
+  }
+}
+
+@media (min-width: 1200px) {
+  .section-freebies .list {
+    margin-right: 118px;
+  }
+}
+
+.section-freebies .list li {
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 1.5;
+}
+
+@media (min-width: 1024px) {
+  .section-freebies .list li {
+    font-size: 20px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .section-freebies--grey {
+    background-image: url(/images/redesign/decorations/img_circle-dark_thin.svg),
+      url(/images/redesign/decorations/img_circles-dark-gray-06_wide.svg),
+      url(/images/redesign/decorations/img_circle-dark_thin.svg),
+      url(/images/redesign/decorations/img_circles-dark-gray-02_wide.svg),
+      url(/images/redesign/decorations/img_dollar.svg);
+    background-position: top 86px right 12px, top -28px right 0,
+      top 53px left 18px, bottom -66px left -5px, bottom 66px left 40%;
+    background-size: 49px, 184px, 99px, 488px, 75px;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+  }
+}
+.list--black-check-in-circle li {
+  position: relative;
+  padding-left: 38px;
+  line-height: 1.5;
+  margin-bottom: 1rem;
+}
+.list--black-check-in-circle li:before {
+  content: "";
+  width: 18px;
+  height: 18px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 24px;
+  height: 24px;
+  background: url(./../../assets/svg/ico_tick-2.svg) 50% / contain no-repeat;
+}
+
+.list--black-check-in-circle li:before {
+}

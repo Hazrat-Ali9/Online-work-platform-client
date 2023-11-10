@@ -1,0 +1,23 @@
+.rdp {
+    --rdp-cell-size: 40px;
+    --rdp-caption-font-size: 18px;
+    --rdp-accent-color:  #570DF8;
+    --rdp-background-color: #000;
+    --rdp-accent-color-dark: #3003e1;
+    --rdp-background-color-dark: #180270;
+    --rdp-outline: 2px solid var(--rdp-accent-color);
+    --rdp-outline-selected: 3px solid var(--rdp-accent-color);
+    --rdp-selected-color: #fff;
+    margin: 1em;
+}
+
+.rdp-months {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.rdp-dropdown {
+    background-color: #000;
+}

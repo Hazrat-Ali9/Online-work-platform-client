@@ -1,0 +1,35 @@
+.our-guarantees__statistics {
+    width: 386px;
+    height: 386px;
+    padding: 61px;
+    border-radius: 50%;
+    background-image: linear-gradient(312deg,#ffb806 20%,#ffb800 99%);
+    /* background-color: @apply bg-primary; */
+    margin: 0;
+    position: relative;
+}
+
+.our-guarantees__statistics:after, .our-guarantees__statistics:before {
+    content: "";
+    position: absolute;
+    border: 1px solid #fff;
+    border-radius: 50%;
+        width: 100%;
+    height: 100%;
+    top: 6px;
+    left: 8px;
+}
+
+.our-guarantees__statistics:before {
+    width: 64px;
+    height: 64px;
+    bottom: 6px;
+    right: 8px;
+}
+
+.our-guarantees__statistics:after, .our-guarantees__statistics:before {
+    content: "";
+    position: absolute;
+    border: 1px solid #100803;
+    border-radius: 50%;
+}
