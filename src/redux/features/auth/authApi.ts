@@ -36,13 +36,14 @@ const authApi = apiSlice.injectEndpoints({
         data: credentials,
         contentType: "multipart/form-data",
       }),
+      invalidatesTags:[tagTypes.admin]
     }),
     deleteUser: builder.mutation<User, string>({
       query: (id) => ({
         url: `/users/${id}`,
         method: "DELETE",
       }),
-      invalidatesTags: [tagTypes.seller, tagTypes.buyer, tagTypes.seller],
+      invalidatesTags: [tagTypes.seller, tagTypes.buyer, tagTypes.seller, tagTypes.admin],
     }),
   }),
 });
