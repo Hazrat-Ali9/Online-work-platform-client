@@ -45,3 +45,4 @@ const config: Config = {
   plugins: [require("@tailwindcss/typography"), require("daisyui")],
 };
 export default config;
+// Tailwind CSS
