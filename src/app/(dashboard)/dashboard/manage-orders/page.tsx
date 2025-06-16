@@ -1,5 +1,5 @@
 "use client";
-
+// Manage page
 import BreadCrumb from "@/components/ui/BreadCrumb";
 import {
   useOrdersQuery,
