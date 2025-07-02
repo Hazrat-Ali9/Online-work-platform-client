@@ -1,5 +1,5 @@
 "use client";
-
+// Page tsx 
 import BreadCrumb from "@/components/ui/BreadCrumb";
 import { useDeleteUserMutation } from "@/redux/features/auth/authApi";
 import { useSellersQuery } from "@/redux/features/seller/sellerApi";
