@@ -1,5 +1,5 @@
 "use client";
-
+// page tsx
 import BreadCrumb from "@/components/ui/BreadCrumb";
 import {
   useCategoriesQuery,
